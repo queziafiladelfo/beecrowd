@@ -1,0 +1,1 @@
+## Exercicos resolvidos do [beecrowd](https://www.beecrowd.com.br/judge/en/login) 
