@@ -18,7 +18,7 @@ for(let moeda of moedas){
 
 console.log('NOTAS:');
 for(let i = 0; i < notas.length; i++){
-    console.log(`${resultNotas[i]} nota(s) de R$ ${notas[i]}.00`);
+    console.log(`${resultNotas[i]} nota(s) de R$ ${notas[i].toFixed(2)}`);
 }
 
 console.log('MOEDAS:');
