@@ -11,6 +11,7 @@ let C = parseFloat(lines.shift());
 const divisaoMaiorZero = 2 * A > 0.0;
 const delta = Math.pow(B, 2) - 4 * A * C;
 const deltaPositivo = delta > 0.0;
+
 const R1 = (- B + Math.sqrt(delta)) / (2 * A);
 const R2 = (- B - Math.sqrt(delta)) / (2 * A);
 
