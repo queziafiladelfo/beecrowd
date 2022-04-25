@@ -1,5 +1,7 @@
 var input = require('fs').readFileSync('stdin', 'utf8');
-var valor = parseFloat(input);
+var lines = input.split('\n');
+var valor = parseFloat(lines).toFixed(2);
+//var valor = parseFloat(input);
 
 const notas = [100, 50, 20, 10, 5, 2];
 const moedas = [1, 0.50, 0.25, 0.10, 0.05, 0.01];
