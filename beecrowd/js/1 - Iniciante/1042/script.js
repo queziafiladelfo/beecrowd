@@ -5,7 +5,6 @@ let valores = [];
 let valoresCrescente = [];
 
 valores = lines.map((item) => parseInt(item));
-
 valoresCrescente = [...valores];
 
 valoresCrescente.sort((a, b) =>  a - b);
