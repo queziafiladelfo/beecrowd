@@ -1,9 +1,6 @@
 var input = require('fs').readFileSync('stdin', 'utf8');
 var lines = parseInt((input.split('\n')).shift());
 
-console.log(lines);
-console.log(lines == 11);
-
 switch(lines) {
     case 61:
         console.log("Brasilia");
