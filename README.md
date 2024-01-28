@@ -15,5 +15,15 @@
 8. Geometria Computacional
 9. SQL
 
+## Para rodar o código no site do **beecrowd**
+
+copie somente o código que está apos as seguintes linhas de código: 
+``` javascript
+var input = require('fs').readFileSync('stdin', 'utf8');
+var lines = input.split('\n');
+```
+
 ## Verificação das Soluções
 Todas as soluções deste repositório foram submetidas e aceitas no Beecrowd URI Online Judge. 
+
+<center>Feito com 💜 por <span style="color:#9932cc"><strong>Quézia Filadelfo</strong</span></center>
